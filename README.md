@@ -1,6 +1,3 @@
-Creating a well-structured README file for your GitHub repository is essential for helping others understand your project and how to use it. Below is a sample README file tailored for your website monitoring script.
-
-
 # Website Update Notifier
 
 A simple shell script that monitors a specified website for updates and sends desktop notifications when changes are detected.
