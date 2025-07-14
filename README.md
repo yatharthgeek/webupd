@@ -1,4 +1,4 @@
-# Website Update Notifier
+# webupd (Website Updates)
 
 A simple shell script that monitors a specified website for updates and sends desktop notifications when changes are detected.
 
@@ -18,19 +18,19 @@ A simple shell script that monitors a specified website for updates and sends de
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/website-update-notifier.git
-   cd website-update-notifier
+   git clone https://github.com/yatharthgeek/webupd
+   cd webupd
    ```
 
 2. **Make the script executable**:
    ```bash
-   chmod +x check_website_update.sh
+   chmod +x webupd.sh
    ```
 
 ## Usage
 
 1. **Edit the script**:
-   Open the `check_website_update.sh` file in a text editor and modify the following variables:
+   Open the `webupd.sh` file in a text editor and modify the following variables:
 
    ```bash
    URL="http://127.0.0.1"  # Replace with the website URL you want to monitor
@@ -41,7 +41,7 @@ A simple shell script that monitors a specified website for updates and sends de
 2. **Run the script**:
    Execute the script in the terminal:
    ```bash
-   ./check_website_update.sh
+   ./webupd.sh
    ```
 
 3. **Stop the script**:
